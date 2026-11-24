@@ -1,0 +1,11 @@
+{
+  "name": "rng10m-streamelements",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RNGdle-style !10m roll for StreamElements, served from Vercel",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node scripts/test.js",
+    "sim": "node scripts/test.js --sim 200000"
+  }
+}
